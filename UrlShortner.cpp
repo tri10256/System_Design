@@ -67,3 +67,12 @@ int main(){
     cout<<"Shorted-Url"<<" "<<tinyUrl<<endl;
     cout<<"Redirected_From_Database"<<"  "<<machine.decode(machine.encode(website))<<endl;
 }
+
+
+
+**************************************************************OUTPUT****************************************************************************************************************
+[Running] cd "c:\Users\Trivendram Pal\OneDrive\Desktop\SystemDesignn\UrlShortner\" && g++ file.cpp -o file && "c:\Users\Trivendram Pal\OneDrive\Desktop\SystemDesignn\UrlShortner\"file
+Original-Url  https://www.google.com/search?q=get+a+long+website+url&rlz=1C1UEAD_enIN954IN954&oq=get+a+long+website++url&aqs=chrome..69i57j33i22i29i30l8.7064j0j15&sourceid=chrome&ie=UTF-8
+Shorted-Url https://www.google.com/KNwUfb
+Redirected_From_Database  https://www.google.com/search?q=get+a+long+website+url&rlz=1C1UEAD_enIN954IN954&oq=get+a+long+website++url&aqs=chrome..69i57j33i22i29i30l8.7064j0j15&sourceid=chrome&ie=UTF-8
+
