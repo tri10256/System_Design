@@ -26,7 +26,8 @@ class Dice{
 	}
 
 	int rollback(){
-                 ///// //////////////// (this is the range of the values between the lower bound and upper bound)                     
+                 ///// //////////////// (this is the range of the values between the lower bound and upper bound)  
+        //srand(time(0));
 		int val  = rand()%(6*number-1*number) + 1*number;
 		return val;
 	}
@@ -69,6 +70,7 @@ class Board{
 		 while(nextTurn.size()>1){
            
 		   Player player = nextTurn.front();
+		   cout<<"You are at this pos"<<pos[player.name]<<endl;
 		   nextTurn.pop();
 
 		   int diceValue = dice.rollback();
